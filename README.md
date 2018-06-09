@@ -2,10 +2,10 @@
 Manually curated collection of machine-readable Minecraft data.
 
 ## Schemas
-- blocks
-    - base
+- [blocks](./schemas/blocks)
+    - [base](./schemas/blocks/base)
         - [block](./schemas/blocks/base/block.json)
-    - mixin
+    - [mixin](./schemas/blocks/mixin)
         - [container](./schemas/blocks/mixin/container.json)
         - [lootable](./schemas/blocks/mixin/lootable.json)
     - [brewing_stand](./schemas/blocks/brewing_stand.json)
@@ -14,26 +14,26 @@ Manually curated collection of machine-readable Minecraft data.
     - [dropper](./schemas/blocks/dropper.json)
     - [furnace](./schemas/blocks/furnace.json)
     - [hopper](./schemas/blocks/hopper.json)
-- common
+- [common](./schemas/common)
     - [attribute](./schemas/common/attribute.json)
     - [attribute_modifier](./schemas/common/attribute_modifier.json)
     - [status_effect](./schemas/common/status_effect.json)
-- entities
-    - base
+- [entities](./schemas/entities)
+    - [base](./schemas/entities/base)
         - [entity](./schemas/entities/base/entity.json)
         - [mob](./schemas/entities/base/mob.json)
-    - component
+    - [component](./schemas/entities/component)
         - [leash](./schemas/entities/component/leash.json)
         - [pose](./schemas/entities/component/pose.json)
-    - mixin
-        - [breedable](./schemas/entities/base/breedable.json)
-        - [tameable](./schemas/entities/base/tameable.json)
+    - [mixin](./schemas/entities/mixin)
+        - [breedable](./schemas/entities/mixin/breedable.json)
+        - [tameable](./schemas/entities/mixin/tameable.json)
     - [area_effect_cloud](./schemas/entities/area_effect_cloud.json)
     - [armor_stand](./schemas/entities/armor_stand.json)
     - [item](./schemas/entities/item.json)
     - [wolf](./schemas/entities/wolf.json)
-- items
-    - base
+- [items](./schemas/items)
+    - [base](./schemas/items/base)
         - [item](./schemas/items/base/item.json)
         - [slotless_item](./schemas/items/base/slotless_item.json)
         - [slotted_item](./schemas/items/base/slotted_item.json)
