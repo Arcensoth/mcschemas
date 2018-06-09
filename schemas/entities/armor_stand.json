@@ -1,0 +1,55 @@
+{
+  "inherit": [
+    "minecraft:entities/base/entity"
+  ],
+  "tags": {
+    "disabled_slots": {
+      "name": "DisabledSlots",
+      "type": "int"
+    },
+    "marker": {
+      "name": "Marker",
+      "type": "bool"
+    },
+    "invisible": {
+      "name": "Invisible",
+      "type": "bool"
+    },
+    "no_base_plate": {
+      "name": "NoBasePlate",
+      "type": "bool"
+    },
+    "show_arms": {
+      "name": "ShowArms",
+      "type": "bool"
+    },
+    "small": {
+      "name": "Small",
+      "type": "bool"
+    },
+    "fall_flying": {
+      "name": "FallFlying",
+      "type": "bool"
+    },
+    "hand_items": {
+      "name": "HandItems",
+      "type": "list",
+      "constraints": {
+        "subtype": "minecraft:items/base/slotless_item",
+        "length": 2
+      }
+    },
+    "armor_items": {
+      "name": "ArmorItems",
+      "type": "list",
+      "constraints": {
+        "subtype": "minecraft:items/base/slotless_item",
+        "length": 4
+      }
+    },
+    "pose": {
+      "name": "Pose",
+      "type": "minecraft:entities/component/pose"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "inherit": [
+    "minecraft:blocks/base/block",
+    "minecraft:blocks/mixin/container",
+    "minecraft:blocks/mixin/lootable"
+  ],
+  "tags": {
+    "transfer_cooldown": {
+      "name": "TransferCooldown",
+      "type": "int"
+    }
+  }
+}

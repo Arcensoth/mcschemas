@@ -1,0 +1,113 @@
+{
+  "inherit": [
+    "minecraft:entities/base/entity"
+  ],
+  "tags": {
+    "health": {
+      "name": "Health",
+      "type": "float"
+    },
+    "absorption_amount": {
+      "name": "AbsorptionAmount",
+      "type": "float"
+    },
+    "hurt_time": {
+      "name": "HurtTime",
+      "type": "short"
+    },
+    "hurt_by_timestamp": {
+      "name": "HurtByTimestamp",
+      "type": "int"
+    },
+    "death_time": {
+      "name": "DeathTime",
+      "type": "short"
+    },
+    "fall_flying": {
+      "name": "FallFlying",
+      "type": "bool"
+    },
+    "attributes": {
+      "name": "Attributes",
+      "type": "list",
+      "consstraints": {
+        "subtype": "minecraft:common/attribute"
+      }
+    },
+    "active_effects": {
+      "name": "ActiveEffects",
+      "type": "list",
+      "constraints": {
+        "subtype": "minecraft:common/status_effect"
+      }
+    },
+    "hand_items": {
+      "name": "HandItems",
+      "type": "list",
+      "constraints": {
+        "subtype": "minecraft:items/base/slotless_item",
+        "length": 2
+      }
+    },
+    "armor_items": {
+      "name": "ArmorItems",
+      "type": "list",
+      "constraints": {
+        "subtype": "minecraft:items/base/slotless_item",
+        "length": 4
+      }
+    },
+    "hand_drop_chances": {
+      "name": "HandDropChances",
+      "type": "list",
+      "constraints": {
+        "subtype": "float",
+        "length": 2
+      }
+    },
+    "armor_drop_chances": {
+      "name": "ArmorDropChances",
+      "type": "list",
+      "constraints": {
+        "subtype": "float",
+        "length": 4
+      }
+    },
+    "death_loot_table": {
+      "name": "DeathLootTable",
+      "type": "string"
+    },
+    "death_loot_table_seed": {
+      "name": "DeathLootTableSeed",
+      "type": "long"
+    },
+    "can_pick_up_loot": {
+      "name": "CanPickUpLoot",
+      "type": "bool"
+    },
+    "no_ai": {
+      "name": "NoAI",
+      "type": "bool"
+    },
+    "persistence_required": {
+      "name": "PersistenceRequired",
+      "type": "bool"
+    },
+    "left_handed": {
+      "name": "LeftHanded",
+      "type": "bool"
+    },
+    "leashed": {
+      "name": "Leashed",
+      "type": "bool"
+    },
+    "team": {
+      "name": "Team",
+      "type": "string"
+    },
+    "leash": {
+      "name": "Leash",
+      "type": "minecraft:entities/component/leash"
+    }
+  }
+}

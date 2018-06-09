@@ -1,0 +1,12 @@
+{
+  "tags": {
+    "loot_table": {
+      "name": "LootTable",
+      "type": "resource_location"
+    },
+    "loot_table_seed": {
+      "name": "LootTableSeed",
+      "type": "long"
+    }
+  }
+}

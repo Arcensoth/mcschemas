@@ -1,0 +1,17 @@
+{
+  "inherit": [
+    "minecraft:entities/base/mob",
+    "minecraft:entities/mixin/breedable",
+    "minecraft:entities/mixin/tameable"
+  ],
+  "tags": {
+    "angry": {
+      "name": "Angry",
+      "type": "bool"
+    },
+    "collar_color": {
+      "name": "CollarColor",
+      "type": "byte"
+    }
+  }
+}

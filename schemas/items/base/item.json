@@ -1,0 +1,20 @@
+{
+  "tags": {
+    "count": {
+      "name": "Count",
+      "type": "byte"
+    },
+    "damage": {
+      "name": "Damage",
+      "type": "short"
+    },
+    "id": {
+      "name": "id",
+      "type": "string"
+    },
+    "tag": {
+      "name": "tag",
+      "type": "compound"
+    }
+  }
+}

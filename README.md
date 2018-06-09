@@ -1,2 +1,39 @@
 # mcdb
 Manually curated collection of machine-readable Minecraft data.
+
+## Schemas
+- blocks
+    - base
+        - [block](./schemas/blocks/base/block.json)
+    - mixin
+        - [container](./schemas/blocks/mixin/container.json)
+        - [lootable](./schemas/blocks/mixin/lootable.json)
+    - [brewing_stand](./schemas/blocks/brewing_stand.json)
+    - [chest](./schemas/blocks/chest.json)
+    - [dispenser](./schemas/blocks/dispenser.json)
+    - [dropper](./schemas/blocks/dropper.json)
+    - [furnace](./schemas/blocks/furnace.json)
+    - [hopper](./schemas/blocks/hopper.json)
+- common
+    - [attribute](./schemas/common/attribute.json)
+    - [attribute_modifier](./schemas/common/attribute_modifier.json)
+    - [status_effect](./schemas/common/status_effect.json)
+- entities
+    - base
+        - [entity](./schemas/entities/base/entity.json)
+        - [mob](./schemas/entities/base/mob.json)
+    - component
+        - [leash](./schemas/entities/component/leash.json)
+        - [pose](./schemas/entities/component/pose.json)
+    - mixin
+        - [breedable](./schemas/entities/base/breedable.json)
+        - [tameable](./schemas/entities/base/tameable.json)
+    - [area_effect_cloud](./schemas/entities/area_effect_cloud.json)
+    - [armor_stand](./schemas/entities/armor_stand.json)
+    - [item](./schemas/entities/item.json)
+    - [wolf](./schemas/entities/wolf.json)
+- items
+    - base
+        - [item](./schemas/items/base/item.json)
+        - [slotless_item](./schemas/items/base/slotless_item.json)
+        - [slotted_item](./schemas/items/base/slotted_item.json)

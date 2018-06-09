@@ -1,0 +1,12 @@
+{
+  "tags": {
+    "owner_uuid": {
+      "name": "OwnerUUID",
+      "type": "string"
+    },
+    "sitting": {
+      "name": "Sitting",
+      "type": "bool"
+    }
+  }
+}

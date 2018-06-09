@@ -1,0 +1,102 @@
+{
+  "tags": {
+    "id": {
+      "name": "id",
+      "type": "string"
+    },
+    "pos": {
+      "name": "Pos",
+      "type": "list",
+      "constraints": {
+        "subtype": "double",
+        "length": 3
+      }
+    },
+    "motion": {
+      "name": "Motion",
+      "type": "list",
+      "constraints": {
+        "subtype": "double",
+        "length": 3
+      }
+    },
+    "rotation": {
+      "name": "Rotation",
+      "type": "list",
+      "constraints": {
+        "subtype": "float",
+        "length": 2
+      }
+    },
+    "on_ground": {
+      "name": "OnGround",
+      "type": "bool"
+    },
+    "no_gravity": {
+      "name": "NoGravity",
+      "type": "bool"
+    },
+    "invulnerable": {
+      "name": "Invulnerable",
+      "type": "bool"
+    },
+    "silent": {
+      "name": "Silent",
+      "type": "bool"
+    },
+    "glowing": {
+      "name": "Glowing",
+      "type": "bool"
+    },
+    "fall_distance": {
+      "name": "FallDistance",
+      "type": "float"
+    },
+    "fire": {
+      "name": "Fire",
+      "type": "short"
+    },
+    "air": {
+      "name": "Air",
+      "type": "short"
+    },
+    "dimension": {
+      "name": "Dimension",
+      "type": "int"
+    },
+    "portal_cooldown": {
+      "name": "PortalCooldown",
+      "type": "int"
+    },
+    "uuid_most": {
+      "name": "UUIDMost",
+      "type": "long"
+    },
+    "uuid_least": {
+      "name": "UUIDLeast",
+      "type": "long"
+    },
+    "custom_name": {
+      "name": "CustomName",
+      "type": "string_json"
+    },
+    "custom_name_visible": {
+      "name": "CustomNameVisible",
+      "type": "bool"
+    },
+    "tags": {
+      "name": "Tags",
+      "type": "list",
+      "constraints": {
+        "subtype": "string"
+      }
+    },
+    "passengers": {
+      "name": "Passengers",
+      "type": "list",
+      "constraints": {
+        "subtype": "minecraft:entities/base/entity"
+      }
+    }
+  }
+}

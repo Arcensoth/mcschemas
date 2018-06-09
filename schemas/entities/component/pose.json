@@ -1,0 +1,46 @@
+{
+  "tags": {
+    "body": {
+      "name": "Body",
+      "type": "list",
+      "constraints": {
+        "length": 3
+      }
+    },
+    "left_arm": {
+      "name": "LeftArm",
+      "type": "list",
+      "constraints": {
+        "length": 3
+      }
+    },
+    "right_arm": {
+      "name": "RightArm",
+      "type": "list",
+      "constraints": {
+        "length": 3
+      }
+    },
+    "left_leg": {
+      "name": "LeftLeg",
+      "type": "list",
+      "constraints": {
+        "length": 3
+      }
+    },
+    "right_leg": {
+      "name": "RightLeg",
+      "type": "list",
+      "constraints": {
+        "length": 3
+      }
+    },
+    "head": {
+      "name": "Head",
+      "type": "list",
+      "constraints": {
+        "length": 3
+      }
+    }
+  }
+}

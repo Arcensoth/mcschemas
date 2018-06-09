@@ -1,0 +1,27 @@
+{
+  "tags": {
+    "in_love": {
+      "name": "InLove",
+      "type": "int",
+      "constraints": {
+        "min": 0
+      }
+    },
+    "age": {
+      "name": "Age",
+      "type": "int"
+    },
+    "forced_age": {
+      "name": "ForcedAge",
+      "type": "int"
+    },
+    "love_cause_least": {
+      "name": "LoveCauseLeast",
+      "type": "long"
+    },
+    "love_cause_most": {
+      "name": "LoveCauseMost",
+      "type": "long"
+    }
+  }
+}

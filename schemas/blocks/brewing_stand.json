@@ -1,0 +1,16 @@
+{
+  "inherit": [
+    "minecraft:blocks/base/block",
+    "minecraft:blocks/mixin/container"
+  ],
+  "tags": {
+    "brew_time": {
+      "name": "BrewTime",
+      "type": "int"
+    },
+    "fuel": {
+      "name": "Fuel",
+      "type": "byte"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "tags": {
+    "name": {
+      "name": "Name",
+      "type": "string"
+    },
+    "base": {
+      "name": "Base",
+      "type": "double"
+    },
+    "modifiers": {
+      "name": "Modifiers",
+      "type": "list",
+      "constraints": {
+        "subtype": "minecraft:common/attribute_modifier"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "inherit": [
+    "minecraft:item/base/item"
+  ],
+  "tags": {
+    "slot": {
+      "name": "Slot",
+      "type": "byte"
+    }
+  }
+}

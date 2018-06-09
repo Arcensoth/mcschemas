@@ -1,0 +1,74 @@
+{
+  "inherit": [
+    "minecraft:entities/base/entity"
+  ],
+  "tags": {
+    "age": {
+      "name": "Age",
+      "type": "int"
+    },
+    "color": {
+      "name": "Color",
+      "type": "int"
+    },
+    "duration": {
+      "name": "Duration",
+      "type": "int"
+    },
+    "duration_on_use": {
+      "name": "DurationOnUse",
+      "type": "float"
+    },
+    "effects": {
+      "name": "Effects",
+      "type": "list",
+      "constraints": {
+        "subtype": "minecraft:common/status_effect"
+      }
+    },
+    "owner_uuid_least": {
+      "name": "OwnerUUIDLeast",
+      "type": "long"
+    },
+    "owner_uuid_most": {
+      "name": "OwnerUUIDMost",
+      "type": "long"
+    },
+    "particle": {
+      "name": "Particle",
+      "type": "string"
+    },
+    "particle_param_1": {
+      "name": "ParticleParam1",
+      "type": "int"
+    },
+    "particle_param_2": {
+      "name": "ParticleParam2",
+      "type": "int"
+    },
+    "potion": {
+      "name": "Potion",
+      "type": "string"
+    },
+    "radius": {
+      "name": "Radius",
+      "type": "float"
+    },
+    "radius_on_use": {
+      "name": "RadiusOnUse",
+      "type": "float"
+    },
+    "radius_per_tick": {
+      "name": "RadiusPerTick",
+      "type": "float"
+    },
+    "reapplication_delay": {
+      "name": "ReapplicationDelay",
+      "type": "int"
+    },
+    "wait_time": {
+      "name": "WaitTime",
+      "type": "int"
+    }
+  }
+}

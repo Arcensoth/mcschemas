@@ -1,0 +1,31 @@
+{
+  "inherit": [
+    "minecraft:entities/base/entity"
+  ],
+  "tags": {
+    "age": {
+      "name": "Age",
+      "type": "short"
+    },
+    "health": {
+      "name": "Health",
+      "type": "short"
+    },
+    "pickup_delay": {
+      "name": "PickupDelay",
+      "type": "short"
+    },
+    "owner": {
+      "name": "Owner",
+      "type": "string"
+    },
+    "thrower": {
+      "name": "Thrower",
+      "type": "string"
+    },
+    "item": {
+      "name": "Item",
+      "type": "minecraft:items/base/slotless_item"
+    }
+  }
+}

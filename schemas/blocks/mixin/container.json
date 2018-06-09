@@ -1,0 +1,19 @@
+{
+  "tags": {
+    "custom_name": {
+      "name": "CustomName",
+      "type": "string"
+    },
+    "lock": {
+      "name": "Lock",
+      "type": "string"
+    },
+    "items": {
+      "name": "Items",
+      "type": "list",
+      "constraints": {
+        "subtype": "minecraft:items/base/slotted_item"
+      }
+    }
+  }
+}

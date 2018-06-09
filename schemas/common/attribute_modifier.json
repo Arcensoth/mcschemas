@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "name": {
+      "name": "Name",
+      "type": "string"
+    },
+    "amount": {
+      "name": "Amount",
+      "type": "double"
+    },
+    "operation": {
+      "name": "Operation",
+      "type": "int",
+      "constraints": {
+        "min": 0,
+        "max": 2
+      }
+    },
+    "uuid_most": {
+      "name": "UUIDMost",
+      "type": "long"
+    },
+    "uuid_least": {
+      "name": "UUIDLeast",
+      "type": "long"
+    }
+  }
+}

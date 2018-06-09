@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "uuid_most": {
+      "name": "UUIDMost",
+      "type": "long"
+    },
+    "uuid_least": {
+      "name": "UUIDLeast",
+      "type": "long"
+    },
+    "x": {
+      "name": "X",
+      "type": "int"
+    },
+    "y": {
+      "name": "Y",
+      "type": "int"
+    },
+    "z": {
+      "name": "Z",
+      "type": "int"
+    }
+  }
+}

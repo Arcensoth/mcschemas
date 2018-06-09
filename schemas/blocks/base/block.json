@@ -1,0 +1,20 @@
+{
+  "tags": {
+    "id": {
+      "name": "id",
+      "type": "string"
+    },
+    "x": {
+      "name": "x",
+      "type": "int"
+    },
+    "y": {
+      "name": "y",
+      "type": "int"
+    },
+    "z": {
+      "name": "z",
+      "type": "int"
+    }
+  }
+}

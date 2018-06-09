@@ -1,0 +1,20 @@
+{
+  "inherit": [
+    "minecraft:blocks/base/block",
+    "minecraft:blocks/mixin/container"
+  ],
+  "tags": {
+    "burn_time": {
+      "name": "BurnTime",
+      "type": "short"
+    },
+    "cook_time": {
+      "name": "CookTime",
+      "type": "short"
+    },
+    "cook_time_total": {
+      "name": "CookTimeTotal",
+      "type": "short"
+    }
+  }
+}
